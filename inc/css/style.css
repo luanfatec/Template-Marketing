@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica", sans-serif;
+    list-style: none;
+}
+/*body::-webkit-scrollbar {*/
+/*    display: none;*/
+/*}*/
+header {
+    background-image: url("../img/workplace-1245776_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 695px;
+    width: 100%;
+    position: relative;
+}
+header .container-custom {
+    width: 90%;
+    margin: 0 auto;
+}
+header .container-custom .sub-container {
+    position: relative;
+}
+header .container-custom .sub-container .boxlogo h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 100px 40px;
+    margin-top: 14%;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    color: white;
+    font-size: 2em;
+}
+header .container-custom #nav-main {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 60px;
+}
+header .container-custom #nav-main ul {
+    margin-right: 5%;
+    float: right;
+    margin-top: 10px;
+    line-height: 0.5px;
+}
+header .container-custom #nav-main ul li {
+    list-style: none;
+    float: left;
+    padding: 22px 30px 25px 30px;
+    color: white;
+}
+header .container-custom #nav-main ul li:hover{
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 1);
+}
+header .container-custom #nav-main ul a {
+    text-decoration: none;
+}
+header #logotipo {
+    position: absolute;
+    left: 5%;
+}
+header #logotipo span h4 {
+    color: white;
+    padding: 15px 10px 10px 0;
+}
+header [menu-float-btn] {    
+    text-align: center;
+    right: 100px;
+    top: 30px;
+    position: absolute;
+}
+header [menu-float-btn] ul li[item-pai] {
+    cursor: pointer;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 5px 30px;
+    color: white;
+    position: relative;
+    font-weight: 600;
+}
+header [menu-float-btn] ul li[item-pai]:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+header [menu-float-btn] ul li[item-pai] ul {    
+    width: 116px;
+    display: none;
+    position: absolute;
+    right: 40px;
+    margin-top: 5px;
+}
+header [menu-float-btn] ul li[item-pai] ul li {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+header [menu-float-btn] ul li[item-pai] ul li:hover{
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+}
+header [menu-float-btn] ul li[item-pai]:hover > ul {
+    display: block;
+} 
+/* Menu toggle */
+header [menu-mobile].menu-open {
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    right: -300px;
+    z-index: 100;
+    border-left: 1.5px solid rgba(0, 0, 0, 0.5);
+}
+header [menu-mobile].menu-open .logo-menu [logo-menu] {
+    text-align: center;
+    padding: 68px 10px 30px 10px
+}
+header [menu-mobile].menu-open .logo-menu [logo-menu] a {
+    color: black;
+}
+header [menu-mobile].menu-open .box-menu ul a {
+    text-decoration: none;
+}
+header [menu-mobile].menu-open .box-menu ul a li {
+    text-align: center;
+    padding: 8px 0;
+    color: black;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+header [menu-mobile].menu-open .box-menu ul a li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+[btn-menu] {
+    float: right;
+    color: white;
+    font-size: 1.8em;
+    padding: 9px;
+    margin-right: 5%;
+    z-index: 100;
+}
+#open-menu:checked + .menu-open {
+    transition: 1s;
+    right: 0;
+}
+/* ==== Init Section ==== */
+section #section-part-1 .bloco-content h1 {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #455c83;
+}
+section #section-part-1 .bloco-content p {
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 1.1em;
+    padding-bottom: 50px;
+}
+section #section-part-2 {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    padding: 20px;
+}
+section #section-part-2 .box-img-cell .img-cell {
+    width: 381px;
+    height: 654px;
+    padding: 30px;
+    /* transform: rotate(0deg); */
+    margin-left: 50px;
+}
+section #section-part-2 .app-content {
+    padding: 60px;
+    color: white;
+}
+section #section-part-2 .app-content h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+section #section-part-2 .app-content .app-content-pgs p {
+    text-align: justify;
+}
+section #section-part-2 .app-content .app-content-pgs a.btn-app {
+    margin-top: 10px;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+section #section-part-2 .app-content .app-content-pgs a.btn-app:hover {
+    transition: 2s;
+    background-color: #FE642E;
+    color: white;
+}
+section #section-part-3 .sec3-content .sec3-contitle {
+    padding: 10px;    
+}
+section #section-part-3 .sec3-content .sec3-contitle h1 {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #455c83;
+}
+section #section-part-3 .sec3-content .sec3-contitle p {
+    font-size: 1em;
+    color: #7d8da8;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+section #section-part-3 .sec3-content .sec3-conheader .box {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+section #section-part-3 .sec3-content .sec3-conheader .box a {
+    color: #455c83;
+    text-decoration: none;
+}
+section #section-part-3 .sec3-content .sec3-conheader .box a p.c-icon {
+    color: #7d8da8;
+    text-align: center;
+    font-size: 50px;
+}
+section #section-part-3 .sec3-content .sec3-conheader .box a p.c-tit {
+    color: #385b83;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+section #section-part-3 .sec3-content .sec3-conheader .box a p.c-con {
+    color: #7d8da8;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+section #section-part-4 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+section #section-part-4 .sec4-content {
+    padding: 15px 0 10px 0;
+    text-align: center;
+}
+section #section-part-4 .sec4-content [form-latter] label.label-latter {
+    color: white;
+    font-size: 1.2em;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+section #section-part-4 .sec4-content [form-latter] input.email-latter {
+    transition: 1s;
+    background: rgba(255, 255, 255, 0.493);
+    border: none;
+    border-radius: 10px;
+    padding: 4px;
+    width: 300px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+section #section-part-4 .sec4-content [form-latter] input.email-latter:focus {
+    outline: none;
+    width: 500px;
+    color: black;
+    background: rgb(255, 255, 255);
+    transition: 1s;
+}
+section #section-part-4 .sec4-content [form-latter] input.email-latter::placeholder {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+section #section-part-4 .sec4-content [form-latter] input.btn-latter {
+    color: rgba(0, 0, 0, 0.9);
+    padding: 4px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: aqua;
+    font-weight: 600;
+    transition: 1s;
+}
+section #section-part-4 .sec4-content [form-latter] input.btn-latter:hover {
+    transition: 1s;
+    background-color: rgb(24, 238, 24);
+    width: 200px;
+}
+section #section-part-4 .sec4-content [form-latter] input.btn-latter:focus {
+    outline: none;
+}
+footer  {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+footer .container-footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 480px;
+    padding: 30px 0;
+}
+footer .container-footer .box-footer {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    height: 100%;       
+}
+footer .container-footer .box-footer .box {
+    width: 30%;
+    display: inline-block; 
+    margin: 0 18px;
+}
+footer .container-footer .box-footer .box h2 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.3em;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+footer .container-footer .box-footer .box p {
+    font-size: 0.9em;
+    padding: 5px;    
+}
+footer .container-footer .box-footer .box .links-uteis li{
+    list-style: none;
+    padding: 9px;
+    margin-top: 22px;
+}
+footer .container-footer .box-footer .box .links-uteis li a {
+    transition: 2s;
+    color: white;
+    text-decoration: none;
+}
+footer .container-footer .box-footer .box .links-uteis li a:hover {
+    color: aqua;
+}
+footer .container-footer .box-footer .box .outros .b-sub {
+    width: 43%;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 28px;
+}
+footer .container-footer .box-footer .box .outros .b-sub i {
+    transition: 2s;
+    color: white;
+}
+footer .container-footer .box-footer .box .outros .b-sub i:hover {
+    color: aqua;
+}
+footer .rodape {
+    color: white;
+    padding: 15px;
+}
+footer .rodape [mail] {
+    text-align: center;
+    color: white;
+}
+footer .rodape [mail] a {
+    transition: 2s;
+    color: aqua;
+}
+footer .rodape [mail] a:hover {
+    color: #FE642E;
+}

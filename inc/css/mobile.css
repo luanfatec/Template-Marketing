@@ -1,0 +1,291 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    header {
+        height: 560px!important;
+    }
+    header [menu-float-btn] {
+        display: none;
+    }
+    header [menu-principal] {
+        display: none;
+    } 
+    header .container-custom .sub-container .boxlogo h1 {
+        left: 10%;
+        right: 10%;
+        padding: 70px 40px;
+        margin-top: 34%;
+        font-size: 1.25em;
+    }
+    section #section-part-1 .bloco-content p {
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 1em;
+        padding-bottom: 30px;
+    }
+    section #section-part-2 .app-content {
+        padding: 27px;
+    }
+    section #section-part-2 .app-content h1 {
+        font-size: 1.5em;
+        padding: 0 10px;
+    }
+    section #section-part-2 .box-img-cell .img-cell {
+        display: none;
+    }
+    section #section-part-4 .sec4-content [form-latter] label.label-latter {
+        width: 100%;
+        font-size: 1em;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.email-latter {
+        width: 200px;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.email-latter:focus {
+        width: 230px;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.btn-latter {
+        width: 90px;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.btn-latter:hover {
+        width: 120px;
+    }
+    footer .container-footer {
+        height: 100%;
+    }
+    footer .container-footer .box-footer .box {
+        width: 100%;
+    }
+    footer .container-footer .box-footer .box .outros .b-sub {
+        width: 42%;
+    }
+    footer .container-footer .box-footer .box .outros .b-sub i {
+        font-size: 4em;
+    }
+    footer .container-footer .box-footer .box.info-company {
+        padding: 5% 3%;
+    }
+    footer .container-footer .box-footer .box h2,
+    footer .container-footer .box-footer .box.links h2,
+    footer .container-footer .box-footer .box.links {
+        text-align: center;
+    }  
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        height: 608px!important;
+    }
+    header [menu-float-btn] {
+        display: none;
+    }
+    header .container-custom .sub-container .boxlogo h1 {
+        left: 20%;
+        right: 20%;
+        padding: 70px 40px;
+        margin-top: 34%;
+        font-size: 1.25em;
+    }
+    header [menu-principal] {
+        display: none;
+    }
+    section #section-part-2 .box-img-cell .img-cell {
+        display: none;
+    } 
+    section #section-part-3 .sec3-content .sec3-conheader .box a p.c-icon {
+        font-size: 100px;
+    }   
+    section #section-part-3 .sec3-content .sec3-conheader .box a p.c-tit {
+        font-size: 1.8em;
+    }
+    section #section-part-3 .sec3-content .sec3-conheader .box a p.c-con {
+        font-size: 1.2em;
+        padding: 0 60px
+    }
+    section #section-part-4 .sec4-content [form-latter] label.label-latter {
+        width: 100%;
+        font-size: 1em;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.email-latter {
+        width: 220px;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.email-latter:focus {
+        width: 340px;
+    }
+    footer .container-footer {
+        height: 100%;
+    }
+    footer .container-footer .box-footer .box {
+        width: 100%;
+    }
+    footer .container-footer .box-footer .box .outros .b-sub {
+        width: 42%;
+    }
+    footer .container-footer .box-footer .box .outros .b-sub i {
+        font-size: 6em;
+    }
+    footer .container-footer .box-footer .box.info-company {
+        padding: 5% 11%;
+    }
+    footer .container-footer .box-footer .box h2,
+    footer .container-footer .box-footer .box.links h2,
+    footer .container-footer .box-footer .box.links {
+        text-align: center;
+    }    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width:  768px) and (max-width: 991.98px) {
+    header {
+        height: 608px!important;
+    }
+    header [menu-float-btn] {    
+        text-align: center;
+        right: 60px;
+        top: 34px;
+        position: absolute;
+    }
+    header .container-custom .sub-container .boxlogo h1 {
+        padding: 80px 0;
+        font-size: 2em;
+        margin-top: 20%;
+    }
+    header .container-custom #nav-main ul {
+        width: 66%;
+        margin-right: 0;
+        margin-top: 5px;
+        line-height: 5.5px;
+    }
+    header .container-custom #nav-main {
+        height: 52px;
+    }
+    header .container-custom #nav-main ul li {
+        padding: 18px 30px 22px 30px;
+        font-size: 0.8em;
+    }
+    header #logotipo span h4 {
+        padding: 14px 10px 10px 0;
+        font-size: 20px;
+    }
+    header [menu-mobile].menu-open {
+        display: none;
+    }
+    section #section-part-2 .box-img-cell .img-cell {
+        width: 332px;
+        height: 591px;
+        padding: 30px;
+        margin-left: 0;
+    }
+    section #section-part-2 .app-content h1 {
+        font-size: 2em;
+    }
+    section #section-part-2 .app-content .app-content-pgs p {
+        font-size: 1em;
+    }
+    section #section-part-2 .app-content {
+        padding: 50px;
+        color: white;
+    }
+    section #section-part-3 .sec3-content .sec3-contitle h1 {
+        font-size: 2em;
+    }
+    section #section-part-3 .sec3-content .sec3-contitle p {
+        font-size: 0.8em;
+    }
+    section #section-part-3 .sec3-content .sec3-conheader .box a p.c-tit {
+        font-size: 0.9em;
+    }
+    section #section-part-3 .sec3-content .sec3-conheader .box a p.c-con {
+        font-size: 0.8em;
+    }
+    section #section-part-4 .sec4-content {
+        margin-top: -40px;
+    }
+    section #section-part-4 .sec4-content [form-latter] label.label-latter {
+        font-size: 0.8em;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.email-latter {
+        width: 250px;
+    }
+    section #section-part-4 .sec4-content [form-latter] input.email-latter:focus {
+        width: 350px;
+    }
+    footer .container-footer .box-footer .box p {
+        font-size: 0.7em;
+        padding: 0;
+    }
+    footer .container-footer .box-footer .box .outros .b-sub i {
+        transition: 2s;
+        color: white;
+        font-size: 4em;
+    }
+    footer .container-footer .box-footer .box.links {
+        width: 20%!important;
+    }    
+    footer .container-footer .box-footer .box .outros .b-sub {
+        width: 38%;
+    }
+    footer .container-footer {
+        height: 424px;
+    }
+    [btn-menu] {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    header {
+        height: 608px!important;
+    }   
+    header [menu-float-btn] {    
+        text-align: center;
+        right: 60px;
+        top: 34px;
+        position: absolute;
+    }
+    header [menu-mobile].menu-open {
+        display: none;
+    }
+    header .container-custom #nav-main ul {
+        width: 55%;
+    }
+    footer .container-footer .box-footer .box.links {
+        width: 20%!important;
+        margin-left: 50px;
+    }
+    footer .container-footer .box-footer .box .outros .b-sub i {
+        transition: 2s;
+        color: white;
+        font-size: 4em;
+    }
+    footer .container-footer .box-footer .box .outros .b-sub {
+        width: 40%;
+    }  
+    footer .container-footer {
+        height: 424px;
+    }  
+    [btn-menu] {
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    header [menu-mobile].menu-open {
+        display: none;
+    }
+    [btn-menu] {
+        display: none;
+    }
+    header .container-custom #nav-main ul {
+        width: 40%;
+    }
+}
+
+
+/* Container Section */
+.container-section {
+    margin-left: 4%;
+    margin-right: 4%;
+}
